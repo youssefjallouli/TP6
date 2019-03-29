@@ -8,20 +8,12 @@
  */
 
 var creerHistoire = function (n) {
-    var i = 1 ; 
+
     var phrase =prompt("Entrez une phrase!") ;
-    var tab1 = [];
-
+    var tab1 = phrase.split(' ');
     
-    for (var i; i<=0; i++){
-        if (phrase.charAt(i)!=""){
 
-            
-
-        }
-
-
-    }
+    print(tab1);
 };
 
 var histoire = creerHistoire(/* n */);
